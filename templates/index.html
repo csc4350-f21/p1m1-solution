@@ -6,8 +6,14 @@
 		<h1>Hella Mega Tour Hype Machine</h1>
 		<h2>{{song_name}}</h2>
 		<h3>{{song_artist}}</h3>
-		<a href="{{genius_url}}"> Lyrics </a>
-		<img src="{{song_image_url}}"/>
-		<audio src={{preview_url}}/>
+		<div>
+			<img src="{{song_image_url}}" width=300 height=300/>
+		</div>
+		<div>
+			<audio controls>
+				<source src={{preview_url}}/>
+			</audio>
+		</div>
+		<a href="{{genius_url}}"> Click here to see lyrics! </a>
 	</body>
 </html>
